@@ -1,91 +1,88 @@
-body {
-	background: #777777;
-	font-family: Orbitron;
-	text-transform: uppercase;
+#AC,
+#CE {
+  background: #af4848;
 }
 
-h1 {
-	text-align: center;
-	display: wrap;
+#buttons {
+  margin-top: 15px;
 }
 
 #calculator {
-	width: 315px;
-	height: 400px;
-	background: #DFD8D0;
-	margin: 5% auto;
-	border-radius: 20px;
-	box-shadow: 5px 10px 30px 1px rgba(0, 0, 0, 0.8), 
-		inset -1px -5px 15px 0.1px #A49F98;
+  background: #DFD8D0;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px 1px rgba(0, 0, 0, 0.8), inset -1px -5px 15px .1px #A49F98;
+  height: 400px;
+  margin: 5% auto;
+  width: 315px;
 }
 
 #calculator h1 {
-	text-align: center;
-	font-size: 1.1em;
-	font-weight: 700;
-}
-
-#screen {
-	width: 90%;
-	height: 20%;
-	background: #C3C2AB;
-	margin: 0 auto;
-	border-radius: 5px;
-	border: 2px solid #888985;
-	text-align: right;
-
-}
-
-#screen h2 {
-	margin-top: 5%;
-	margin-right: 10px;
-}
-
-#screen p {
-	margin-right: 10px;
-	color: gray;
-}
-
-button:focus { outline: none; }
-
-#buttons {
-	margin-top: 15px;
-}
-
-button {
-	background: #515151;
-	color: white;
-	height: 40px;
-	width: 50px;
-	margin: 5px 5px 3px 5px;
-	border-radius: 10px;
-	border: none;
-	box-shadow: 0 4px #959799;
-}
-
-#AC {
-	background: #af4848;
-}
-
-#CE {
-	background: #af4848;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center;
 }
 
 #equals {
-	position: absolute;
-	height: 90px;
+  height: 90px;
+  position: absolute;
 }
 
-#zero {
-	width: 115px;
+#screen {
+  background: #C3C2AB;
+  border: 2px solid #888985;
+  border-radius: 5px;
+  height: 20%;
+  margin: 0 auto;
+  text-align: right;
+  width: 90%;
 }
 
-.noShadow {
-	box-shadow: none;
+#screen h2 {
+  margin-right: 10px;
+  margin-top: 5%;
+}
+
+#screen p {
+  color: gray;
+  margin-right: 10px;
 }
 
 #signature {
-	color: white;
-	text-align: center;
-	text-transform: none;
+  color: #FFF;
+  text-align: center;
+  text-transform: none;
+}
+
+#zero {
+  width: 115px;
+}
+
+.noShadow {
+  box-shadow: none;
+}
+
+body {
+  background: #777;
+  font-family: Orbitron;
+  text-transform: uppercase;
+}
+
+button {
+  background: #515151;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px #959799;
+  color: #FFF;
+  height: 40px;
+  margin: 5px 5px 3px;
+  width: 50px;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1 {
+  display: wrap;
+  text-align: center;
 }
