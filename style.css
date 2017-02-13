@@ -1,3 +1,33 @@
+body {
+  background: #777;
+  font-family: Orbitron;
+  text-transform: uppercase;
+}
+
+button {
+  background: #515151;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px #959799;
+  color: #FFF;
+  height: 40px;
+  margin: 5px 5px 3px;
+  width: 50px;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1 {
+  display: wrap;
+  text-align: center;
+}
+
+.noShadow {
+  box-shadow: none;
+}
+
 #AC,
 #CE {
   background: #af4848;
@@ -55,34 +85,4 @@
 
 #zero {
   width: 115px;
-}
-
-.noShadow {
-  box-shadow: none;
-}
-
-body {
-  background: #777;
-  font-family: Orbitron;
-  text-transform: uppercase;
-}
-
-button {
-  background: #515151;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 4px #959799;
-  color: #FFF;
-  height: 40px;
-  margin: 5px 5px 3px;
-  width: 50px;
-}
-
-button:focus {
-  outline: none;
-}
-
-h1 {
-  display: wrap;
-  text-align: center;
 }
