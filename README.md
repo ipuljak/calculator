@@ -1,6 +1,6 @@
 #Simple Calculator
 
-This is a very simple calculator written in Javascript with jQuery & HTML/CSS.
+This is a very simple calculator written in Javascript with jQuery & HTML/CSS. It only features basic mathematical functions, and has a screen character limit of 8.
 
 ###How To###
 
